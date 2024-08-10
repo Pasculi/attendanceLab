@@ -1,0 +1,10 @@
+.mostrar{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+}
+.mostrar__tabla{
+  width: 80%;
+  margin: auto;
+}
