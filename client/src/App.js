@@ -3,13 +3,15 @@ import AsistenciaLab from "./components/AsistenciaLab";
 import checkOk from "./images/check-circle-regular-120.png";
 import checkWrong from "./images/x-circle-regular-120.png";
 import Popup from "./components/Popup";
+import FormDocente from "./components/FormDocente";
 
 function App() {
   const [popup, setPopup] = useState();
 
   return (
     <div className="container-principal">
-      <AsistenciaLab onPupop={setPopup} />
+    <FormDocente />
+      {/* <AsistenciaLab onPupop={setPopup} /> */}
       {/* {popup ? (
         <Popup>
           <h2>Datos ingresados correctamente!</h2>
