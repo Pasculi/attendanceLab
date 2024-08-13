@@ -48,4 +48,6 @@ const attendence = [
 ];
 
 
-console.log(attendence.curso)
+attendence.map((registro) => {
+  console.log(registro.software);
+})
