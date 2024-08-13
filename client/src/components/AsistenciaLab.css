@@ -108,22 +108,9 @@ textarea {
   width  : fit-content;
 }
 
-.btn {
-  width        : 100px;
-  height       : 40px;
-  background   : orange;
-  border       : none;
-  color        : #FFF;
-  cursor       : pointer;
-  border-radius: 5px;
-  
 
-}
 
-.btn:hover {
-  background: rgb(49, 95, 151);
-  outline   : 3px solid #fff;
-}
+
 
 #fecha {
   height     : 30px;

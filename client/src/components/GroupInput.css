@@ -1,8 +1,19 @@
 .group-input{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    row-gap: 5px;
+    width: 250px;
 }
-.input-form{
+.input-form-primary{
     border:none;
+    outline: 2px solid rgb(4, 105, 199);
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 15px;
+    
+}
+.input-form-error{
+    border :none;
+outline: 2px solid rgb(255, 0, 0);
+height : 30px;
 }

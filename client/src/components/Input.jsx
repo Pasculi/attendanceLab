@@ -1,11 +1,16 @@
 import React from 'react'
 import './GroupInput.css'
 
-const Input = ({type, name, placeholder, content}) => {
+const Input = ({ type, name, placeholder, content, className}) => {
+  const onChange = (evt) => {
+    
+    console.log({ [evt.target.name] : evt.target.value })
+
+  }
   return (
     <div className="group-input">
-    <label>{content}{" "}</label>
-        <input className="input-form" type={type} name={name} placeholder={placeholder}/>
+      <label htmlFor={name}>{content}{" "}</label>
+      <input onChange={onChange} className={className} type={type} id={name} name={name} placeholder={placeholder} />
     </div>
   )
 }

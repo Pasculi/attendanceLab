@@ -1,0 +1,29 @@
+.button-primary {
+  background-color: #4CAF50;
+  color           : #fff;
+}
+
+.button-secondary {
+  background-color: orange;
+  color: #fff;
+}
+
+.bt {
+  width        : 150px;
+  margin-top   : 20px;
+  font-size    : 13px;
+  border       : none;
+  height       : 30px;
+  border-radius: 5px;
+  cursor       : pointer;
+}
+
+.button-secondary:hover {
+  background: rgb(223, 201, 6);
+  outline   : 3px solid #fff;
+}
+
+.button-primary:hover {
+  background: #5db660;
+  outline   : 3px solid #fff;
+}
