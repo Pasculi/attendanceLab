@@ -46,3 +46,6 @@ const attendence = [
     },
   },
 ];
+
+
+console.log(attendence.curso)
